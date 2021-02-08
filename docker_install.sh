@@ -54,7 +54,7 @@ mkdir /root/.jupyter
 mkdir /root/.jupyter/custom
 wget http://hilpisch.com/custom.css
 mv custom.css /root/.jupyter/custom
-mv /root/jupyter_notebook_config.py /root/.jupyter/
-mv /root/mycert.pem /root/.jupyter
-mv /root/mykey.key /root/.jupyter
+#mv /root/jupyter_notebook_config.py /root/.jupyter/
+#mv /root/mycert.pem /root/.jupyter
+#mv /root/mykey.key /root/.jupyter
 mkdir /root/notebook
