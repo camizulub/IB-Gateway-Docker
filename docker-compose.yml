@@ -9,9 +9,9 @@ services:
       - ./ib/IBController.ini:/root/IBController/IBController.ini
       - ./ib/jts.ini:/root/Jts/jts.ini
     environment:
-      - TZ=America/Chicago
+      - TZ=America/New_York
       # Variables pulled from /IBController/IBControllerGatewayStart.sh
-      - VNC_PASSWORD=1234 # CHANGEME
+      - VNC_PASSWORD=camilo123 # CHANGE_ME
       - TWS_MAJOR_VRSN=974
       - IBC_INI=/root/IBController/IBController.ini
       - IBC_PATH=/opt/IBController
