@@ -10,6 +10,7 @@ apt update  # updates the package index cache
 apt upgrade -y  # updates packages
 # install system tools
 apt install -y screen vim  # system tools
+apt install -y gcc git htop unzip # system tools
 apt upgrade -y bash  # upgrades bash if necessary
 apt clean  # cleans up the package index cache
 
