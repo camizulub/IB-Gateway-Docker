@@ -8,6 +8,7 @@ services:
     volumes:
       - ./ib/IBController.ini:/root/IBController/IBController.ini
       - ./ib/jts.ini:/root/Jts/jts.ini
+      - /datos:/datos
     environment:
       - TZ=America/New_York
       # Variables pulled from /IBController/IBControllerGatewayStart.sh
