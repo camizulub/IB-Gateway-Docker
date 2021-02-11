@@ -49,6 +49,8 @@ pip install eikon  # Python wrapper for the Refinitiv Eikon Data API
 pip install git+git://github.com/yhilpisch/tpqoa
 # Python database for time-series
 pip install git+git://github.com/manahl/arctic
+# Library for working with the Trader Workstation API
+pip install ib_insync
 
 # COPYING FILES AND CREATING DIRECTORIES
 mkdir /root/.jupyter
