@@ -63,7 +63,5 @@ RUN /docker_install.sh
 RUN apt install -y openjdk-11-jdk # java
 # prepend the new path
 ENV PATH /root/miniconda3/bin:$PATH
-# expose port 9999 for jupyter
-EXPOSE 9999
 
 CMD bash runscript.sh
