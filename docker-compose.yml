@@ -4,6 +4,7 @@ services:
     build: .
     ports:
       - "4003:4003"
+      - "8888:8888"
       - "5901:5900"
     volumes:
       - ./ib/IBController.ini:/root/IBController/IBController.ini
